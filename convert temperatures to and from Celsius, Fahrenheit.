@@ -1,0 +1,12 @@
+function celsius(value){
+    f=(9*value/5)+32;
+    console.log(`${value}°C is equal to ${f}°F `);
+
+}
+function Fahrenheit(value){
+    c=5*((value-32)/9);
+    console.log(`${value}°F is equal to ${c}°C `);
+
+}
+celsius(60);
+Fahrenheit(45);

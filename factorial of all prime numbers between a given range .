@@ -1,0 +1,21 @@
+let fact = 1 * 2 * 3 * 5 * 7;
+function Prime(a, b) {
+    for (let j = a; j <= b; j++) {
+        if (j % 2 === 0) {
+            continue;
+        }
+        else if (j % 3 === 0) {
+            continue;
+        }
+        else if (j % 5 === 0) {
+            continue;
+        }
+        else if (j % 7 === 0) {
+            continue;
+        }
+        else {
+            fact = fact * j;
+        }
+    }
+    console.log(fact);
+}

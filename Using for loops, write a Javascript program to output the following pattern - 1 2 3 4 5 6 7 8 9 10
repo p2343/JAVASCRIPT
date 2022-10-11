@@ -1,0 +1,13 @@
+let line="";
+let a=1;
+
+for(let j=1;j<=4;j++){
+    for(let i=1;i<=j;i++){
+        line+=a;
+        a++;
+
+
+    }
+    line+="\n";
+}
+console.log(line);

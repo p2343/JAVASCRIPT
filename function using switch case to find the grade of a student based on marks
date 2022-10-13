@@ -1,0 +1,28 @@
+function Marks(value){
+    switch(true){
+        case (100>=value && value>=90):
+            console.log("S");
+            break;
+        case (90>=value && value>=80):
+            console.log("A");
+            break;
+        case (80>= value && value>=70):
+            console.log("B");
+            break;
+        case(70>=value && value>=60):
+            console.log("C");
+            break;
+        case(60>=value && value>=50):
+            console.log("D");
+            break;
+        case(50>=value && value>=40):
+            console.log("E");
+            break;
+        case(40>=value && value>=0):
+            console.log("Student has failed");
+            break;
+        default:
+            console.log("Invalid Marks");
+    }
+}
+Marks(354)

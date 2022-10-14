@@ -1,6 +1,0 @@
-let steps=prompt('number');
-function matchHouses(steps){
-    let a =(steps*5)+1;
-    console.log(a);
-}
-matchHouses(steps);

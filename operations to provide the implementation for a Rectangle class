@@ -1,0 +1,14 @@
+class Rectangle {
+    constructor(len, width) {
+        this.length = len;
+        this.width = width;
+    }
+    area() {
+        console.log(this.length * this.width);
+    }
+}
+class Square extends Rectangle {
+    constructor(len, width) {
+        super(len, width);
+    }
+}

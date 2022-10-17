@@ -1,0 +1,10 @@
+function truncate(value) {
+    let a = value.length;
+    if (a < 4) {
+        console.log(value);
+    }
+    else {
+        let b = value.slice(0, 4);
+        console.log(b + "...");
+    }
+}

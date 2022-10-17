@@ -1,0 +1,17 @@
+let string="";
+function whitespace(value){
+    let b=value.indexOf(" ");
+    let a=value.length;
+    for(let i=0;i<=a-1;i++){
+        if(i===b){
+            continue;
+        }
+        else{
+            string+=value[i]
+           
+            
+        }
+    }
+    console.log(string);
+
+}

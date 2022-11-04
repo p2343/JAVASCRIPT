@@ -1,0 +1,5 @@
+function Replace(name){
+    let b=name.replace("a","x");
+    console.log(b);
+}
+Replace("apple");

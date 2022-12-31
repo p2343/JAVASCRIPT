@@ -1,0 +1,17 @@
+function CheckUpperCase(string)
+{
+    let string1=string[0];
+    console.log(string1);
+
+    if(string1.toUpperCase()===string[0])
+    {
+        console.log("true");
+    }
+    else
+    {
+        console.log("false");
+    }
+
+
+}
+CheckUpperCase("Prassan");
